@@ -7,10 +7,12 @@ const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissor_div = document.getElementById("s");
+var myPix = new Array("image/rock.png","image/paper.png","image/scissor.png");
 
 function getComputerChoice() {
   const choices = ["r", "p", "s"];
   const randomNumber = Math.floor(Math.random() * 3);
+  document.getElementById("computer_choice").src = myPix[randomNumber];
   return choices[randomNumber];
 }
 

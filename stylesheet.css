@@ -13,7 +13,7 @@ body {
 
 header {
   background: white;
-  padding: 20px;
+  padding: 15px;
 }
 
 header > h1 {
@@ -62,7 +62,7 @@ header > h1 {
 }
 
 .choices {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   text-align: center;
 }
 
@@ -77,6 +77,10 @@ margin: 80px 0 60px 0; */
   border-radius: 50%;
   display: inline-block;
   padding: 10px;
+<<<<<<< HEAD
+  margin: 20px 30px 20px 30px;
+=======
+>>>>>>> 20bcaf1124f2e4c61b2b1580672d520709ef6b6b
   transition: all 0.5s ease;
   margin: 80px 30px 60px 30px;
 }
@@ -89,7 +93,7 @@ margin: 80px 0 60px 0; */
 #action-mesasge {
   color: white;
   text-align: center;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   font-size: 40px;
   font-weight: bold;
 }
@@ -123,7 +127,7 @@ footer {
   font: bold 16px sans-serif;
 
   padding: 55px 50px;
-  margin-top: 130px;
+  margin-top: 80px;
 }
 
 .footer-distributed .footer-left,
